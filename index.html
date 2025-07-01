@@ -1,1 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="intro-screen">
+        <main>
+            <div id="typing-box">
+                <div id="typed-text-container">
+                    <span id="typed-text"></span><span id="cursor">_</span>
+                </div>
+            </div>
+            <div id="subtext">(Press Enter to continue)</div>
+        </main>
+    </div>
+
+    <div id="title-screen" style="display: none;">
+        <div id="sidebar">
+            <nav>
+                <a href="#">01. HOME</a>
+                <a href="#">02. ABOUT</a>
+                <a href="#">03. SKILLS</a>
+                <a href="#">04. BUILDS</a>
+                <a href="#">05. PROJECTS</a>
+                <a href="#">06. PHOTOS</a>
+                <a href="#">07. CONTACT</a>
+            </nav>
+
+            <div id="navbar-info">
+                <div>LAST UPDATED:</div>
+                <div>2025-07-01</div>
+                <div>VERSION: 1.0.0</div>
+                <div>STATUS: STABLE</div>
+                <div id="current-page">Page: 01</div>
+                <div>SESSION: ACTIVE</div>
+            </div>
+
+        </div>
+
+        <div id="video-container">
+            <iframe src="https://www.youtube.com/embed/VH1C7xACJt4?autoplay=1&mute=1&loop=1&playlist=VH1C7xACJt4" title="Dark Motion Polygon | Free Animation Loop Background and Screensaver" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <div id="title-content">
+            <div id="tagline">
+                A HIGH SCHOOL STUDENT WITH IDEAS TOO BIG FOR ANY BACKPACK
+            </div>
+
+            <div id="title-content-inner">
+                <div id="image-text-wrapper">
+                    <div id="that-me-text">
+                        That's<br />Me!!!
+                    </div>
+                    <img src="https://i.postimg.cc/bJ6XWZf1/fbdbf53f-f7ec-4e5e-9108-41674051d248-removalai-preview.png" alt="Pixelated photo of Evan Meier" id="profile-pic" />
+                </div>
+
+                <div id="name-label">
+                    <h1>EVAN</h1>
+                    <h1>MEIER</h1>
+
+                    <div id="welcome-text">
+                        AND THIS IS MY PORTFOLIO!
+                    </div>
+
+                    <div id="rotating-text-box">
+                        <span>I am </span><span id="rotating-word">Innovative</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pages-container">
+            <section id="about-page" class="page-section" style="display:block;">
+                <h1 class="about-title">About Me</h1>
+                <div class="about-content">
+                    <img src="https://i.postimg.cc/pLcxb8Vm/IMG-1491-modified.png" alt="Photo of Evan Meier" class="about-image" />
+                    <p>
+                        Ever since I was young, the expansive worldview of STEM has shaped my life—fostering inquiry and innovation,
+                        sparking curiosity and creativity, and inspiring big dreams for my future. Now, as a rising junior at Cathedral
+                        High School, these experiences have coalesced into a strong drive to explore new ideas and tackle challenging problems.
+                    </p>
+                    <p>
+                        I’ve learned to approach obstacles with persistence and enjoy working with others who share my passion for discovery.
+                        In the upcoming years, I plan to attend college, where I can continue growing, learning, and making a positive impact
+                        in the world through innovation and an unwavering drive to create meaningful change.
+                    </p>
+                </div>
+
+            </section>
+            <section id="skills-page" class="page-section" style="display:none;">
+                <h1 class="skills-title">Skills</h1>
+
+                <div class="skill-section">
+                    <div class="vertical-label label-skills">Toolset</div>
+                    <div class="skills-content">
+                        <div class="skill">
+                            <span class="toolset-language">HTML-5</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="toolset-language">CSS-3</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="toolset-language">JS ES6</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="toolset-language">C++14</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-section">
+                    <div class="vertical-label">Tools</div>
+                    <div class="skills-content">
+                        <div class="skill">
+                            <span>VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Tinkercad</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-section">
+                    <div class="vertical-label">Other</div>
+                    <div class="skills-content">
+                        <div class="skill">
+                            <span>Robotics</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Arduino</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Pi-Zero</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-fill="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section id="builds-page" class="page-section" style="display:none;">
+                <section id="builds-page" class="page-section">
+                    <div class="builds-title">BUILD.LOG</div>
+                    <div class="builds-list">
+                        <div class="build-item">
+                            <span class="build-name">>> file_0001: Calculator ......................</span>
+                            <a href="https://evan001011.github.io/Calculator/" target="_blank" class="build-link">[launch]</a>
+                        </div>
+                        <div class="build-item">
+                            <span class="build-name">>> file_0002: AES Encryptor ...................</span>
+                            <a href="https://evan001011.github.io/AES-Encryptor/" target="_blank" class="build-link">[launch]</a>
+                        </div>
+                        <div class="build-item">
+                            <span class="build-name">>> file_0003: Unit Two Project ................</span>
+                            <a href="https://evan001011.github.io/Unit-Two-Project/" target="_blank" class="build-link">[launch]</a>
+                        </div>
+                        <div class="build-item">
+                            <span class="build-name">>> file_0004: Unit Three Project ..............</span>
+                            <a href="https://evan001011.github.io/Unit-Three-Project/" target="_blank" class="build-link">[launch]</a>
+                        </div>
+                        <div class="build-item">
+                            <span class="build-name">>> file_0005: Unit Four Project ...............</span>
+                            <a href="https://evan001011.github.io/Unit-Four-Project/" target="_blank" class="build-link">[launch]</a>
+                        </div>
+                        <div class="build-item">
+                            <span class="build-name">>> file_0006: Speed Typing Game ...............</span>
+                            <a href="https://evan001011.github.io/Speed-Typing-Game/" target="_blank" class="build-link">[launch]</a>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+            <section id="projects-page">
+                <div class="folder-container">
+                    <h2 class="folder-title">📂 Pac-Man Deluxe</h2>
+
+                    <div class="folder-panels">
+                        <div class="panel">
+                            <div class="panel-header"> The Game </div>
+                            <div class="panel-content">
+                                <a href="https://evan001011.github.io/Pac-Man/ " target="_blank" class="file-link">
+                                    PacMan_V1.0-beta_windows
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="panel">
+                            <div class="panel-header"> The Code </div>
+                            <div class="panel-content">
+                                <a href="https://github.com/Evan001011/Pac-Man" target="_blank" class="file-link">
+                                    pacman.js
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="panel">
+                            <div class="panel-header"> The Technical Overview </div>
+                            <div class="panel-content">
+                                <a href="https://pdflink.to/97c9a305/" target="_blank" class="file-link">
+                                    Pac-Man in JavaScript: Animation, Pathfinding, and AI.pdf
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="photos-page" class="page-section" style="display: none;">
+                <h1 class="photos-title">Photography</h1>
+                <div id="photo-carousel">
+                    <div class="photo-slide"><img src="https://i.postimg.cc/T3JXz9vq/IMG-2585.jpg" alt="Photo 1" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/wBgGD8PD/IMG-7458.jpg" alt="Photo 2" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/VL0p8Fn0/IMG-6262.jpg" alt="Photo 3" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/2S4tq8Hz/IMG-5595.jpg" alt="Photo 4" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/D0HNGWkz/IMG-7565.jpg" alt="Photo 5" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/nL2wkSbg/IMG-1409.jpg" alt="Photo 6" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/DwTTpNHw/IMG-2039.jpg" alt="Photo 7" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/nzdgHR3B/IMG-7505.jpg" alt="Photo 8" /></div>
+                    <div class="photo-slide"><img src="https://i.postimg.cc/G2Sg0Bpj/IMG-4326.jpg" alt="Photo 9" /></div>
+                </div>
+                <div id="carousel-dots"></div>
+
+            </section>
+
+
+            <section id="contact-page" class="page-section" style="display:none;">
+                <h1 class="contact-title">Contact Me</h1>
+                <div id="contact-content-wrapper">
+                    <form id="contact-form" action="https://formsubmit.co/meier.evan20@gmail.com" method="POST" autocomplete="off">
+                        <input type="hidden" name="_captcha" value="false" />
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send</button>
+                    </form>
+
+                    <div id="contact-images">
+                        <a href="https://github.com/Evan001011" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <img src="https://i.postimg.cc/PJztNxHw/IMG-1499.png" alt="GitHub Profile" class="contact-image" />
+                        </a>
+                        <a href="http://www.linkedin.com/in/evan-meier-b5b099371" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <img src="https://i.postimg.cc/q7SB5SQz/IMG-1503.png" alt="LinkedIn Profile" class="contact-image" />
+                        </a>
+                        <a href="https://www.instagram.com/evan_meier_?igsh=MWo0MGNva21mZTVybQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <img src="https://i.postimg.cc/mkGLb9v4/IMG-1502-1.jpg" alt="Instagram Profile" class="contact-image" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <div id="transition-overlay"></div>
+    <div id="custom-cursor">&lt; &gt;</div>
+    <div id="cursor-tail"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

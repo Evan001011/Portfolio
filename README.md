@@ -60,4 +60,5 @@ Welcome to my personal portfolio website! This site showcases my work, skills, a
   [https://icon-library.com/images/instagram-black-and-white-icon/instagram-black-and-white-icon-17.jpg](https://icon-library.com/images/instagram-black-and-white-icon/instagram-black-and-white-icon-17.jpg)
   
 
-  *Citations for the attached projects in the portfolio are found seperately on their README.md pages
+
+*Citations for the attached projects in the portfolio are found seperately on their README.md pages

@@ -1180,3 +1180,9 @@ main {
     flex: 0 0 80vw !important;
   }
 }
+
+@media (max-width: 768px) {
+    #intro-screen {
+        display: none !important;
+    }
+}

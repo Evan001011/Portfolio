@@ -38,8 +38,6 @@ Welcome to my personal portfolio website! This site showcases my work, skills, a
 
 ## 📚 Citations
 
-## 📚 Citations
-
 - **Background Video on Title Screen**  
   “Dark Motion Polygon | Free Animation Loop Background and Screensaver”  
   by Dark Screen, available on YouTube.  
